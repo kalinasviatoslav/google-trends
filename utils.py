@@ -127,5 +127,8 @@ def get_suggestions(search_box, user_search_input, driver):
 def create_new_folder(new_folder_relative_path):
     try:
         os.mkdir(new_folder_relative_path)
+        return new_folder_relative_path
     except FileExistsError:
-        print('Folder this results already exists and will be rewrited')
+        print(f"Folder with this name exist -> all data will be saved into {new_folder_relative_path}_1")
+        new_folder_relative_path = new_folder_relative_path+"_"
+        return new_folder_relative_path

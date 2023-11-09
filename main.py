@@ -7,7 +7,7 @@ from utils import *
 while True:
     user_search_input = input("Please enter key words for search \n")
     new_folder_relative_path = f"output/{user_search_input}"
-    create_new_folder(new_folder_relative_path)
+    new_folder_relative_path = create_new_folder(new_folder_relative_path)
     download_folder = os.path.join(current_dir, new_folder_relative_path)
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_experimental_option("prefs", {

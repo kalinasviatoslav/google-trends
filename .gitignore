@@ -158,3 +158,21 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+.DS_Store
+.idea/aws.xml
+.idea/google-trends-.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/jupyter-settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+output/.DS_Store
+output/USA/geoMap.csv
+output/USA/multiTimeline.csv
+output/USA/relatedEntities.csv
+output/USA/relatedQueries.csv
+output/USA_/geoMap.csv
+output/USA_/multiTimeline.csv
+output/USA_/relatedEntities.csv
+output/USA_/relatedQueries.csv

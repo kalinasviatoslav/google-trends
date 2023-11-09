@@ -1,3 +1,5 @@
+import os
+
 geoPicker = [{"id": "AR", "name": "Argentina"}, {"id": "AU", "name": "Australia"}, {"id": "AT", "name": "Austria"},
              {"id": "BE", "name": "Belgium"}, {"id": "BR", "name": "Brazil"}, {"id": "CA", "name": "Canada"},
              {"id": "CL", "name": "Chile"}, {"id": "CO", "name": "Colombia"}, {"id": "CZ", "name": "Czechia"},
@@ -25,3 +27,11 @@ timePicker = [["Past 12 months", 0],
               ["Past 90 days", "date=today%203-m"],
               ["Past 5 years", "?date=today%205-y"],
               ["2004 - present", "?date=today%205-y"]]
+
+
+GoogleTrendsLink = "https://trends.google.com/trends/explore"
+GoogleTrendsConnectionError = 'Error 429 (Too Many Requests)!!1'
+max_amount_of_search_suggestions = 4
+sleep_time_for_uploading_data = 3
+current_dir = os.getcwd()
+

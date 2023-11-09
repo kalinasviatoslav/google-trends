@@ -4,6 +4,8 @@ use two commands for initialize and start application
 
 `pip install - r requirements.txt`
 
+and then 
+
 
 `python3 main.py`
 
